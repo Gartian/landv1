@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.open-sans <uniquifier> {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  
+
+body {
+    background-image: url("./backg.jpg");
+    background-attachment: fixed;
+}
+
+
+footer {
+    font-family: "Open Sans";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: red;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img , .img-logo {
+    width: 750px;}
+
+
+.img , .img-web {
+    width: 63px;
+}
+
+.img-web:hover {
+    transition: 0.4s;
+    background-color: red;
+    border-radius: 60%;
+}
+
+
+.imgwp:hover {
+    transition: 0.4s;
+    background-color: red;
+    border-radius: 60%;
+}
+
+
+.wpp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.textowp {
+    margin-top: 30px;
+    font-family: "Open Sans";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt-wp {
+    font-size: 25px;
+    color: red;
+}
+
+
+.ml {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-family: "Open Sans";
+}
+
+
+.video {
+    margin-top: 55px;
+    margin-bottom: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
